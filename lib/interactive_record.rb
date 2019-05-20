@@ -78,7 +78,7 @@ class InteractiveRecord
     SQL
     row = DB[:conn].execute(sql)
   end
-  
+
 =begin
 this was the schools answer
  def self.find_by(attribute_hash)
